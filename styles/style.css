@@ -27,9 +27,24 @@ pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
 a {
   background-color: transparent;
+}
+
+.landing_hero_cta-title {
+  font-weight: 700 !important;
+  line-height: 1.8;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("icomoon.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block
 }
 
 abbr[title] {
@@ -161,6 +176,7 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
+  
 }
 
 details {
@@ -177,56 +193,6 @@ template {
 
 [hidden] {
   display: none;
-}
-
-/*!
- * Legal Disclaimer
- *
- * These Fonts are licensed only for use on these domains and their subdomains:
- * giftpro.co.uk
- *
- * It is illegal to download or use them on other websites.
- *
- * While the @font-face statements below may be modified by the client, this
- * disclaimer may not be removed.
- *
- * Lineto.com, 2018
- */
-@font-face {
-  font-family: "LL Brown Pro";
-  src: url("../lineto-brown-pro-regular.html") format("woff2"),
-    url("lineto-brown-pro-regular.woff") format("woff"),
-    url("lineto-brown-pro-regular.eot") format("eot");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "LL Brown Pro";
-  src: url("../brownllweb-medium.html") format("woff2"),
-    url("brownllweb-medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "LL Brown Pro";
-  src: url("../lineto-brown-pro-bold.html") format("woff2"),
-    url("lineto-brown-pro-bold.woff") format("woff"),
-    url("lineto-brown-pro-bold.eot") format("eot");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "icomoon";
-  src: url("../icomoonc556.html?4zd6lc") format("woff2"),
-    url("icomoonc556.ttf?4zd6lc") format("truetype"),
-    url("icomoonc556.woff?4zd6lc") format("woff"),
-    url("icomoonc556.svg?4zd6lc#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
 }
 
 [class^="icon-"],
@@ -2934,7 +2900,7 @@ figure {
 
 @media screen and (min-width: 1500px) and (min-height: 900px) {
   .vert_pad {
-    padding-top: 240px;
+    padding-top: 400px;
     padding-bottom: 240px;
   }
 
@@ -8343,15 +8309,6 @@ html:not(.wf-icomoon-n4-active) .example_phone--product_page_card .example_phone
   border-radius: 0.3em;
 }
 
-@font-face {
-  font-family: "Ledger";
-  src: url("ledger-regular.ttf") format("truetype"),
-    url("../ledger-regular.html") format("woff2"),
-    url("ledger-regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .example_phone--product_page_hakkasan {
   color: #fff;
   font-family: "Ledger";
@@ -8427,22 +8384,6 @@ html:not(.wf-icomoon-n4-active) .example_phone--product_page_card .example_phone
 
 .example_phone--product_page_lode_styn .example_phone-add_button {
   background-color: #40511e;
-}
-
-@font-face {
-  font-family: "FuturaPT";
-  src: url("book.ttf") format("truetype"), url("../book.html") format("woff2"),
-    url("book.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Unna";
-  src: url("unna-regular.ttf") format("truetype"),
-    url("unna-regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .example_phone--product_page_youngs {
@@ -8549,13 +8490,6 @@ html:not(.wf-icomoon-n4-active) .example_phone--product_page_card .example_phone
 
 .example_phone--product_page_amazonico .example_phone-add_button {
   background-color: #0b887c;
-}
-
-@font-face {
-  font-family: "IMFell";
-  src: url("imfellenglish-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .example_phone--product_page_the_pig {
@@ -9242,15 +9176,6 @@ html:not(.wf-icomoon-n4-active) .example_phone--product_page_card .example_phone
 .example_tablet--ivy_collection .example_tablet-content {
   background-image: url(bg-ivy_collection.png);
   background-size: 100% auto;
-}
-
-@font-face {
-  font-family: "Bau";
-  src: url("bau-regular.ttf") format("truetype"),
-    url("../bau-regular.html") format("woff2"),
-    url("bau-regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .example_tablet--searcys {
@@ -10791,7 +10716,7 @@ img.example_bottle-bottle_label {
   }
 
   .section_content-wrapper--narrow {
-    max-width: 330px;
+    max-width: 100%;
   }
 
   .section-2_col_wrapper--text_right .section-2_col_cell--image.lazyload--translate:not(.lazyloaded) {
@@ -15011,10 +14936,10 @@ html:not(.wf-icomoon-n4-active) .admin_interface_page_header-breadcrumb::after {
 }
 
 .api_overview .image_container--api_overview {
-  position: absolute;
+  position: relative;
   left: 0;
   right: -8vw;
-  top: -18vw;
+  top: -8vw;
   margin: 0;
 }
 
@@ -15030,7 +14955,7 @@ html:not(.wf-icomoon-n4-active) .admin_interface_page_header-breadcrumb::after {
   }
 
   .api_overview .image_container--api_overview {
-    top: -297px;
+    top: -8vw;
     right: -165px;
   }
 }
@@ -15043,7 +14968,7 @@ html:not(.wf-icomoon-n4-active) .admin_interface_page_header-breadcrumb::after {
 
 @media (max-width: 1000px) and (min-width: 750px) {
   .api_overview .image_container--api_overview {
-    top: -190px;
+    top: 0px;
   }
 
   .image_container--api_overview {
@@ -22635,14 +22560,6 @@ html:not(.wf-icomoon-n4-active) .stores_branded-screenshot_cta::after {
 .image_container--stores_configurable::before {
   padding-bottom: 0;
   height: 540px;
-}
-
-@font-face {
-  font-family: "Fournier";
-  src: url("regular.ttf") format("truetype"),
-    url("../regular.html") format("woff2"), url("regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .stores_configurable-card {
@@ -37032,4 +36949,25 @@ footer .ftr-locations .loc-box .area {
 .page_bottom_form .defaultForm .submit-btn input[type="submit"]:hover {
   background: #26b3c3;
   color: white;
+}
+
+.talent-box .talent-stat h2 {
+  margin-bottom: 0;
+}
+
+.talent-box .talent-stat h4 {
+  margin-bottom: 0;
+}
+
+.submit-btn input {
+  background: #26b3c3 !important;
+  color: white !important;
+}
+
+.gotForm {
+  background: #f2f2f2;
+}
+
+.page_bottom_form .toggle-box {
+  background: transparent !important;
 }
