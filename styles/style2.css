@@ -16496,7 +16496,7 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20px
 }
@@ -23634,10 +23634,16 @@ footer .footer-contact .email a:hover {
 }
 
 .map-dots li:first-child {
-    top: 40%;
-    left: 17%
+    top: 30%;
+    left: 28%;
 }
 
+
+.usAdress {
+    left: 90px;
+    position: relative;
+    bottom: 30px;
+}
 .map-dots li:nth-child(2) {
     top: 18%;
     left: 50%
@@ -23652,7 +23658,9 @@ footer .footer-contact .email a:hover {
     bottom: 14%;
     right: 9%
 }
-
+.map-dots li:hover .line, .map-dots li.current .line {
+    height: 237px;
+}
 .map-dots li:after {
     content: "";
     height: 30px;
@@ -23770,7 +23778,7 @@ footer .copyrights {
     color: #8f8f8f;
     font-weight: 600;
     padding: 0;
-    max-width: 200px
+    max-width: 100%;
 }
 
 footer .copyrights p {
@@ -30741,5 +30749,62 @@ input[type=number] {
 
     .mob-lnk {
         display: inline
+    }
+}
+
+
+.line:after {
+    height: 331px;
+    width: 1px;
+    background: #686566;
+    content: "";
+    position: absolute;
+    transform: rotate(-50deg);
+    left: 149px;
+    top: -35px;
+}
+
+.map-dots li .line {
+    width: 318px;
+}
+
+.map-dots li:hover .line, .map-dots li.current .line {
+    height: 298px;
+}
+
+
+.usAdress {
+    left: 110px;
+    bottom: 32px;
+}
+.locDubai {
+    bottom: 15% !important;
+    right: 34% !important;
+  }
+
+  #loc-3 .loc-box:before {
+    transform: rotate(44deg);
+    left: 50px;
+    top: -38px;
+}
+
+.ukAdress .loc-box {
+    right: 90px !important;
+    bottom: -75px;
+  }
+  
+
+@media (max-width: 1500px) {
+    .usAdress {
+        left: 140px;
+        bottom: 8px;
+    }
+    .dubaiAdress .loc-box {
+        right: 29px !important;
+        bottom: -113px !important;
+    }
+    .ukAdress .loc-box {
+        right: 55px !important;
+        bottom: -91px !important;
     }
 }
