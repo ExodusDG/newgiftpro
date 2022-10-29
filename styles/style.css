@@ -7021,7 +7021,7 @@ body:not(.doc_ready) .landing_hero_container .client_logo_container {
   position: relative;
   top: -0.2em;
   margin: 0 auto 0.1em;
-  font-size: 6.4em;
+  font-size: 35px;
   line-height: 1.15;
   font-weight: 500;
 }
@@ -10613,6 +10613,8 @@ img.example_bottle-bottle_label {
 
 .section-2_col_cell--text .section_title:first-child {
   margin-top: -7px;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 .section-2_col_cell--text .section_description:last-child {
@@ -36899,12 +36901,16 @@ body:not(.doc_ready) .hero_collage_button--right {
 
 .page_bottom_form input,
 .page_bottom_form textarea {
-  border: 1px solid #d3d3d3;
-  -webkit-box-shadow: 0px 0px 12px -4px rgba(184, 184, 207, 1);
-  -moz-box-shadow: 0px 0px 12px -4px rgba(184, 184, 207, 1);
-  box-shadow: 0px 0px 12px -4px rgba(184, 184, 207, 1)
+  border: 1px solid transparent;
+  font-weight: 400;
 }
 
+.page_bottom_form input:focus {
+  border: 1px solid #26b3c3;
+}
+.page_bottom_form textarea:focus {
+  border: 1px solid #26b3c3;
+}
 .page_bottom_form .select-styled {
   border: 1px solid #d3d3d3;
   -webkit-box-shadow: 0px 0px 12px -4px rgba(184, 184, 207, 1);
@@ -36971,3 +36977,9 @@ footer .ftr-locations .loc-box .area {
 .page_bottom_form .toggle-box {
   background: transparent !important;
 }
+
+.map-dots li:nth-child(2) {
+  top: 22%;
+  left: 46%;
+}
+
