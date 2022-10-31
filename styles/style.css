@@ -37012,8 +37012,11 @@ footer .ftr-locations .loc-box .area {
 @media (max-width: 1450px) {
   .landing_hero_cta {
     width: 90%;
-  }
 
+  }
+.landing_hero_content  {
+  padding-top: 160px;
+}
   .WizardImage {
     width: 700px;
   }
