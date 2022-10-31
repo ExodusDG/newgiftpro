@@ -37085,3 +37085,12 @@ footer .ftr-locations .loc-box .area {
 .footer-menu {
   padding-top: 50px;
 }
+
+.menuBoxFooter {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-menu .row {
+  height: 100%;
+}
