@@ -37024,5 +37024,9 @@ footer .ftr-locations .loc-box .area {
 }
 
 .talent-box .talent-stat h2 {
-  font-size: 34px;
+  font-size: 30px;
+}
+
+.talent-box .talent-stat h4 {
+  font-size: 21px;
 }
