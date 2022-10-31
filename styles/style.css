@@ -27,9 +27,11 @@ pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
+
 * {
   font-family: 'Montserrat', sans-serif !important;
 }
+
 a {
   background-color: transparent;
 }
@@ -176,7 +178,7 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
-  
+
 }
 
 details {
@@ -36908,9 +36910,11 @@ body:not(.doc_ready) .hero_collage_button--right {
 .page_bottom_form input:focus {
   border: 1px solid #26b3c3;
 }
+
 .page_bottom_form textarea:focus {
   border: 1px solid #26b3c3;
 }
+
 .page_bottom_form .select-styled {
   border: 1px solid #d3d3d3;
   -webkit-box-shadow: 0px 0px 12px -4px rgba(184, 184, 207, 1);
@@ -36983,3 +36987,35 @@ footer .ftr-locations .loc-box .area {
   left: 46%;
 }
 
+
+.landing_hero_content {
+  flex-direction: unset;
+  justify-content: space-between;
+  height: auto;
+  padding-top: 200px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.landing_hero_cta {
+  width: 100%;
+}
+
+.WizardImage {
+  width: 800px;
+  position: absolute;
+  right: 0;
+}
+
+
+@media (max-width: 1450px) {
+  .landing_hero_cta {
+    width: 90%;
+  }
+
+  .WizardImage {
+    width: 700px;
+  }
+
+}
