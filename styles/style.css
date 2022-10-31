@@ -37014,9 +37014,11 @@ footer .ftr-locations .loc-box .area {
     width: 90%;
 
   }
-.landing_hero_content  {
-  padding-top: 160px;
-}
+
+  .landing_hero_content {
+    padding-top: 160px;
+  }
+
   .WizardImage {
     width: 700px;
   }
@@ -37029,4 +37031,57 @@ footer .ftr-locations .loc-box .area {
 
 .talent-box .talent-stat h4 {
   font-size: 21px;
+}
+
+.section-desc {
+  font-size: 18px;
+}
+
+.manage-head {
+  font-size: 16px;
+}
+
+.manage-list p {
+  font-size: 16px;
+}
+
+.trusted-brands .section-title {
+  font-size: 35px;
+}
+
+
+
+.testimonial_carousel-quote p {
+  margin-top: 20px;
+}
+
+.testimonial_carousel-quote p {
+  font-size: 16px;
+}
+
+.title--xxl,
+.is-style-title--xxl {
+  font-size: 68px !important;
+}
+
+.testimonial_carousel-name_wrapper p {
+  font-size: 16px;
+}
+
+@media (max-width: 1450px) {
+  .api_overview .section-2_col_wrapper {
+    height: 300px;
+  }
+
+  .vert_pad {
+    padding-top: 180px;
+  }
+
+  .loc-box .address {
+    width: 80%;
+  }
+}
+
+.footer-menu {
+  padding-top: 50px;
 }
