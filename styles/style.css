@@ -37099,3 +37099,17 @@ footer .ftr-locations .loc-box .area {
 .contactFormDesc {
   font-size: 16px;
 }
+
+@media (max-width: 1450px) {
+  .dubaiAdress .loc-box {
+    right: 28px !important;
+    bottom: -89px !important;
+  }
+  .ukAdress .loc-box {
+    bottom: -64px !important;
+  }
+  .usAdress .loc-box {
+
+    bottom: -75px !important;
+}
+}
