@@ -37105,11 +37105,30 @@ footer .ftr-locations .loc-box .area {
     right: 28px !important;
     bottom: -89px !important;
   }
+
   .ukAdress .loc-box {
     bottom: -64px !important;
   }
+
   .usAdress .loc-box {
 
     bottom: -75px !important;
+  }
 }
+
+
+
+
+
+@media (max-width: 1450px) {
+  footer .footer-contact {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    position: relative;
+    top: 5px;
+  }
+  footer .footer-menu .menuBox {
+    margin-bottom: 25px;
+  }
 }
