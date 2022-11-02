@@ -37203,3 +37203,18 @@ font-weight: 600;
   line-height: 1.5;
   font-weight: 500;
 }
+
+.testimonial_single-quote {
+  color: white;
+}
+.vert_pad {
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+.testimonial_single-speech_mark_left {
+  top: 10px;
+}
+
+.testimonial_carousel .button {
+  border: 2px solid white !important;
+}
