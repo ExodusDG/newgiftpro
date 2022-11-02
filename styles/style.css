@@ -37195,7 +37195,7 @@ footer .ftr-locations .loc-box .area {
 }
 
 .admin_overview .col_grid-title {
-font-weight: 600;
+  font-weight: 600;
 }
 
 .admin_overview .col_grid-desc p {
@@ -37207,10 +37207,12 @@ font-weight: 600;
 .testimonial_single-quote {
   color: white;
 }
+
 .vert_pad {
   padding-top: 250px;
   padding-bottom: 250px;
 }
+
 .testimonial_single-speech_mark_left {
   top: 10px;
 }
@@ -37245,4 +37247,72 @@ font-weight: 600;
   border: 2px solid #26b3c3;
   background: transparent !important;
   color: #26b3c3 !important;
+}
+
+.input_wrapper input {
+  background: #FBFBFF;
+  background-clip: padding-box;
+  border-color: #dfdfed;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  height: 50px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'LL Brown';
+  justify-content: center;
+  width: 100%;
+  color: #10142a;
+  font-size: 16px;
+  transition: color 0.3s ease, background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease, height 0.3s ease, transform 0.3s ease;
+}
+
+.input_wrapper textarea {
+  background: #FBFBFF;
+  background-clip: padding-box;
+  border-color: #dfdfed;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  height: 50px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: #10142a;
+  font-size: 16px;
+  font-family: 'LL Brown';
+  transition: color 0.3s ease, background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease, height 0.3s ease, transform 0.3s ease;
+}
+
+
+.text_input:focus {
+  border-color: #CFCFE4 !important;
+  border: 2px solid #CFCFE4 !important;
+}
+
+.form--get_in_touch .input_wrapper:nth-child(5) textarea {
+  height: 240px;
+}
+
+.form--get_in_touch .input_wrapper:nth-child(5) {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+}
+
+.form--get_in_touch .input_wrapper:nth-child(4) {
+  grid-column: unset;
+  grid-row: unset;
+}
+
+.toggle-box {
+  display: block !important;
+  text-align: center;
+}
+
+.page_bottom_form.tg-frm p {
+  text-align: center;
+  margin-bottom: 0px;
 }
