@@ -37128,7 +37128,22 @@ footer .ftr-locations .loc-box .area {
     position: relative;
     top: 5px;
   }
+
   footer .footer-menu .menuBox {
     margin-bottom: 25px;
+  }
+
+  .dubaiAdress .loc-box {
+    bottom: -64px !important;
+  }
+
+  .map-dots li:nth-child(3):hover .line,
+  .map-dots li:nth-child(3).current .line {
+    height: 140px;
+  }
+
+  .map-dots li:nth-child(2):hover .line,
+  .map-dots li:nth-child(2).current .line {
+    height: 244px;
   }
 }
