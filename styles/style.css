@@ -37231,3 +37231,18 @@ font-weight: 600;
   color: white;
   font-size: 14px;
 }
+
+.newSection {
+  align-items: center;
+}
+
+.newSection p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.newButton:hover {
+  border: 2px solid #26b3c3;
+  background: transparent !important;
+  color: #26b3c3 !important;
+}
