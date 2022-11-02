@@ -37143,3 +37143,31 @@ footer .ftr-locations .loc-box .area {
     height: 244px;
   }
 }
+
+.talent-manage {
+  padding-bottom: 150px;
+}
+
+.admin_overview .section_title {
+  font-size: 45px !important;
+  font-weight: 600 !important;
+}
+
+.admin_overview .section_description {
+  width: 330px;
+  font-weight: 500 !important;
+}
+
+.section-buttons {
+  font-weight: 600;
+}
+
+.admin_overview .col_grid-title {
+font-weight: 600;
+}
+
+.admin_overview .col_grid-desc p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 500;
+}
