@@ -37218,3 +37218,16 @@ font-weight: 600;
 .testimonial_carousel .button {
   border: 2px solid white !important;
 }
+
+
+.testimonial_single-name {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+.testimonial_single-position {
+  color: white;
+  font-size: 14px;
+}
