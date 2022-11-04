@@ -7055,7 +7055,7 @@ body:not(.doc_ready) .landing_hero_container .client_logo_container {
   position: relative;
   top: -0.2em;
   margin: 0 auto 0.1em;
-  font-size: 35px;
+  font-size: 6.5em;
   line-height: 1.15;
   font-weight: 500;
 }
@@ -37315,4 +37315,13 @@ footer .ftr-locations .loc-box .area {
 .page_bottom_form.tg-frm p {
   text-align: center;
   margin-bottom: 0px;
+}
+
+.landing_hero_cta-desc p {
+  font-size: 16px;
+}
+
+.landing_hero_cta .title--sm {
+  color: white;
+  margin-bottom: 10px;
 }
