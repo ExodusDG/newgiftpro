@@ -16510,7 +16510,7 @@ p {
 }
 
 a {
-    color: #ffda30;
+    color: #26b3c3;
     text-decoration: none;
     transition: .5s all
 }
@@ -16582,7 +16582,7 @@ input[type=submit] {
     font-weight: 700;
     color: #000;
     text-transform: uppercase;
-    background: #ffda30;
+    background: #26b3c3;
     padding: 0 30px;
     font-size: 18px;
     display: inline-block;
@@ -16897,7 +16897,7 @@ input[type=submit]:hover:before {
 }
 
 .slick-dots li.slick-active button {
-    background: #ffda30;
+    background: #26b3c3;
     opacity: 1
 }
 
@@ -17034,9 +17034,9 @@ textarea::placeholder {
 
 input:focus,
 textarea:focus {
-    border-bottom: 1px solid #ffda30;
+    border-bottom: 1px solid #26b3c3;
     transition: all .5s;
-    box-shadow: 0 -2px 0px #ffda30 inset
+    box-shadow: 0 -2px 0px #26b3c3 inset
 }
 
 input[type=submit] {
@@ -17062,14 +17062,14 @@ input[type=submit]:focus {
 }
 
 #cliSettingsPopup .cli-tab-footer .wt-cli-privacy-accept-btn {
-    background-color: #ffda30;
+    background-color: #26b3c3;
     color: #000;
     border-radius: 20px;
     font-weight: 500
 }
 
 #cliSettingsPopup .cli-switch input:checked+.cli-slider {
-    background-color: #ffda30
+    background-color: #26b3c3
 }
 
 #cookie-law-info-bar span .cookie_text {
@@ -17105,7 +17105,7 @@ input[type=submit]:focus {
     font-size: 12px !important;
     margin: 0 0 0 15px !important;
     color: #000 !important;
-    background-color: #ffda30 !important;
+    background-color: #26b3c3 !important;
     display: inline-block
 }
 
@@ -17483,7 +17483,7 @@ li {
 .defaultPage table th {
     text-align: center;
     padding: 10px;
-    background: #ffda30
+    background: #26b3c3
 }
 
 .defaultPage table td {
@@ -17608,7 +17608,7 @@ ul li {
 }
 
 .back-to-top:hover i {
-    color: #ffda30
+    color: #26b3c3
 }
 
 @media (max-width:767px) {
@@ -17852,7 +17852,7 @@ ul li {
 }
 
 .paging .pagename-box:nth-child(2) {
-    background: #ffda30
+    background: #26b3c3
 }
 
 @media (max-width:1650px) {
@@ -18119,7 +18119,7 @@ ul li {
     left: 0;
     width: 0;
     height: 3px;
-    background: #ffda30;
+    background: #26b3c3;
     transition: all .5s
 }
 
@@ -18269,7 +18269,7 @@ ul li {
     left: 0;
     width: 0;
     height: 2px;
-    background: #ffda30;
+    background: #26b3c3;
     transition: all .5s;
     bottom: 0
 }
@@ -18331,7 +18331,7 @@ ul li {
 }
 
 .testimonial .author-info .t-link:hover {
-    color: #ffda30
+    color: #26b3c3
 }
 
 .testimonial .testimonial-content {
@@ -18623,7 +18623,7 @@ ul li {
     height: 2px;
     position: absolute;
     bottom: -5px;
-    background: #ffda30;
+    background: #26b3c3;
     left: 0;
     transition: .5s all
 }
@@ -18662,7 +18662,7 @@ ul li {
     width: 100%;
     -webkit-transition: .5s all;
     transition: .5s all;
-    background: #ffda30;
+    background: #26b3c3;
     left: 0;
     bottom: -3px
 }
@@ -18942,7 +18942,7 @@ ul li {
 }
 
 .ads-slider-section .ads-slider .slick-slide {
-    background: #ffda30;
+    background: #26b3c3;
     padding: 40px 20px 60px;
     margin-right: 30px;
     outline: none;
@@ -19693,7 +19693,7 @@ ul li {
 }
 
 .date-picker .date-picker-btn.selected {
-    background: #ffda30 !important
+    background: #26b3c3 !important
 }
 
 .animated {
@@ -19868,7 +19868,7 @@ ul li {
 .radio-box:before {
     height: 18px;
     width: 18px;
-    border: solid 1px #ffda30;
+    border: solid 1px #26b3c3;
     border-radius: 100%;
     content: "";
     position: absolute;
@@ -19909,7 +19909,7 @@ ul li {
 .check-box:before {
     height: 18px;
     width: 18px;
-    border: solid 1px #ffda30;
+    border: solid 1px #26b3c3;
     content: "";
     position: absolute;
     left: 0;
@@ -20629,7 +20629,7 @@ ul li {
 .latest-testimonials .tm-lists .item .tmbox .tm-img .desc-box blockquote {
     font-size: 16px;
     line-height: 1.5;
-    color: #ffda30;
+    color: #26b3c3;
     font-weight: 500;
     width: 100%;
     transition: .5s all
@@ -20682,7 +20682,7 @@ ul li {
 }
 
 .latest-testimonials .view-more-caseStudy a:hover {
-    color: #ffda30
+    color: #26b3c3
 }
 
 @media (min-width:1025px) {
@@ -20963,7 +20963,7 @@ ul li {
 }
 
 .download-Fixratecard .download-icon {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000;
     padding: 20px 40px 20px 70px;
     position: relative;
@@ -21023,7 +21023,7 @@ ul li {
 }
 
 .extra-links .row {
-    border-top: solid 2px #ffda30;
+    border-top: solid 2px #26b3c3;
     padding: 27px 0 20px;
     margin: 0
 }
@@ -21066,7 +21066,7 @@ ul li {
     }
 
     .extra-links .m-title {
-        border-top: solid 2px #ffda30;
+        border-top: solid 2px #26b3c3;
         padding-top: 15px;
         margin-top: 20px;
         margin-bottom: 15px;
@@ -21103,7 +21103,7 @@ ul li {
 
 .we-are .y-txt {
     font-weight: 600;
-    color: #ffda30
+    color: #26b3c3
 }
 
 .we-are a {
@@ -21207,7 +21207,7 @@ ul li {
 }
 
 .abs-WhiteMenu .header-cta .cta-button:first-child:hover {
-    background: #ffda30
+    background: #26b3c3
 }
 
 .header-cta {
@@ -21226,7 +21226,7 @@ ul li {
 }
 
 .abs-WhiteMenu .header-cta .bg-change {
-    background: #ffda30;
+    background: #26b3c3;
     border: none
 }
 
@@ -21637,7 +21637,7 @@ li.cta-box {
 .top-nav>ul>li.podcast-link a {
     padding: 5px 15px;
     border-radius: 20px;
-    background: #ffda30
+    background: #26b3c3
 }
 
 .top-nav>ul>li.podcast-link a:after {
@@ -21710,7 +21710,7 @@ li.cta-box {
 }
 
 .top-nav>ul>li:hover .submenu-toggle:after {
-    color: #ffda30
+    color: #26b3c3
 }
 
 @media (max-width:1650px) {
@@ -21845,7 +21845,7 @@ li.cta-box {
         height: 1px;
         content: "";
         display: block;
-        background: #ffda30;
+        background: #26b3c3;
         margin-top: 8px
     }
 
@@ -22189,7 +22189,7 @@ body.menu-opened .site-header.fixed-header {
     width: 100%;
     content: "";
     display: block;
-    background: #ffda30;
+    background: #26b3c3;
     transition: .5s all
 }
 
@@ -22563,7 +22563,7 @@ body.menu-opened .site-header.fixed-header {
 
 @media (min-width:1025px) {
     .megamenu .menublocks .block-item .podcast a {
-        background: #ffda30;
+        background: #26b3c3;
         padding: 3px 15px 0;
         border-radius: 20px;
         line-height: 33px;
@@ -22699,7 +22699,7 @@ body.menu-opened .site-header.fixed-header {
     height: 2px;
     position: absolute;
     bottom: -5px;
-    background: #ffda30;
+    background: #26b3c3;
     left: 0;
     transition: .5s all
 }
@@ -22737,7 +22737,7 @@ body.menu-opened .site-header.fixed-header {
 }
 
 .megamenu .menu-recent-post .listbox .box-info ul li a:hover {
-    color: #ffda30
+    color: #26b3c3
 }
 
 .megamenu .menu-recent-post .listbox .box-info ul li:last-child:after {
@@ -22804,7 +22804,7 @@ body.menu-opened .site-header.fixed-header {
 
 .megamenu .megamenu-footer .orderBox {
     max-width: 460px;
-    background: #ffda30;
+    background: #26b3c3;
     padding: 32px 50px;
     margin-top: auto;
     margin-bottom: 80px;
@@ -22957,7 +22957,7 @@ body.menu-opened .site-header.fixed-header {
 .megamenu-open .site-header .hamburger .hamburger-inner:after,
 .megamenu-open .site-header.allot-position .hamburger .hamburger-inner:before,
 .megamenu-open .site-header.allot-position .hamburger .hamburger-inner:after {
-    background: #ffda30
+    background: #26b3c3
 }
 
 .menublocks {
@@ -23448,7 +23448,7 @@ li.has-submenu.sml-menu-lvl-2 {
 }
 
 .social ul li a:hover i {
-    color: #ffda30
+    color: #26b3c3
 }
 
 .social ul li:last-child {
@@ -23506,11 +23506,11 @@ footer .footer-menu .menuBox ul li a {
 }
 
 footer .footer-menu .menuBox ul li a:hover {
-    color: #ffda30
+    color: #26b3c3
 }
 
 footer .footer-menu .menuBox ul li.active a {
-    color: #ffda30
+    color: #26b3c3
 }
 
 footer .subscribe {
@@ -23564,7 +23564,7 @@ footer .subscribe .inputbox .error-message {
 footer .subscribe .inputbox .input {
     width: 280px;
     height: 50px;
-    border-bottom: solid 2px #ffda30;
+    border-bottom: solid 2px #26b3c3;
     line-height: 59px;
     display: inline-block;
     margin-right: 16px
@@ -23620,14 +23620,14 @@ footer .footer-contact .email a {
 }
 
 footer .footer-contact .email a:hover {
-    color: #ffda30
+    color: #26b3c3
 }
 
 .map-dots li {
     position: absolute;
     height: 18px;
     width: 18px;
-    background: #ffda30;
+    background: #26b3c3;
     border-radius: 100%;
     padding: 0;
     border: 0
@@ -23759,7 +23759,7 @@ footer .ftr-locations .loc-box .coutry-name {
 
 footer .ftr-locations .loc-box .area {
     font-size: 15px;
-    color: #ffda30;
+    color: #26b3c3;
     font-weight: 500;
     margin-bottom: 10px
 }
@@ -23793,11 +23793,11 @@ footer .copyrights .policy {
 }
 
 footer .copyrights .policy:hover {
-    color: #ffda30
+    color: #26b3c3
 }
 
 footer .copyrights .policy:hover:after {
-    background: #ffda30
+    background: #26b3c3
 }
 
 .copyrights.mob {
@@ -24672,7 +24672,7 @@ footer.ort .footer-contact {
     }
 
     .abs-WhiteMenu .top-nav>ul>li.email-tab a {
-        color: #ffda30
+        color: #26b3c3
     }
 
     .abs-WhiteMenu .top-nav>ul>li.email-tab a:hover {
@@ -24980,7 +24980,7 @@ footer.ort .footer-contact {
 }
 
 .black_banner_sec h1 span {
-    color: #ffda30
+    color: #26b3c3
 }
 
 .black_banner_sec p {
@@ -25004,7 +25004,7 @@ footer.ort .footer-contact {
 
 .black_banner_sec .btnwrap .cta-button:hover,
 .black_banner_sec .btnwrap .cta-button:focus {
-    background: #ffda30
+    background: #26b3c3
 }
 
 .black_banner_sec .banner-arrow {
@@ -25394,7 +25394,7 @@ footer.ort .footer-contact {
 }
 
 .black_bg_content_sec p span {
-    color: #ffda30
+    color: #26b3c3
 }
 
 .black_bg_content_sec .container {
@@ -26137,7 +26137,7 @@ footer.ort .footer-contact {
 
 .technology-list .container .tech-box .tech-title {
     font-weight: 700;
-    border-bottom: 2px solid #ffda30;
+    border-bottom: 2px solid #26b3c3;
     width: fit-content
 }
 
@@ -26357,7 +26357,7 @@ footer.ort .footer-contact {
 }
 
 .page_bottom_form .defaultForm .submit-btn input[type=submit]:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -26512,7 +26512,7 @@ footer.ort .footer-contact {
 }
 
 .commonContent.yl {
-    background: #ffda30
+    background: #26b3c3
 }
 
 @media (max-width:1650px) {
@@ -26625,7 +26625,7 @@ footer.ort .footer-contact {
 }
 
 .yellow-logo-sec {
-    background: #ffda30;
+    background: #26b3c3;
     padding: 140px 0 90px
 }
 
@@ -26733,7 +26733,7 @@ footer.ort .footer-contact {
 }
 
 .yellow-quote-sec {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -27202,7 +27202,7 @@ footer.ort .footer-contact {
 }
 
 .get-in-touch-section .yl-txt {
-    color: #ffda30
+    color: #26b3c3
 }
 
 .get-in-touch-section.gray-bg {
@@ -27215,7 +27215,7 @@ footer.ort .footer-contact {
 }
 
 .get-in-touch-section.yl-bg {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -27243,7 +27243,7 @@ footer.ort .footer-contact {
 }
 
 .get-in-touch-section.gray-bg .cta-button:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -28087,7 +28087,7 @@ footer.ort .footer-contact {
 
 .custom-footer .cf-menu ul li a:hover {
     text-decoration: underline;
-    color: #ffda30
+    color: #26b3c3
 }
 
 .custom-footer .mail:hover {
@@ -28329,7 +28329,7 @@ footer.ort .footer-contact {
     position: absolute;
     left: 0;
     top: 0;
-    background: #ffda30
+    background: #26b3c3
 }
 
 .rating-main .rateWrap {
@@ -28817,7 +28817,7 @@ input[type=number] {
 }
 
 .hire-salesforce-developer-page .ylThree-Boxes .cta-button:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -29119,7 +29119,7 @@ input[type=number] {
 }
 
 .hire-programmatic .centerBtn .cta-button:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -29210,7 +29210,7 @@ input[type=number] {
     content: "";
     width: 196px;
     height: 2px;
-    background: #ffda30;
+    background: #26b3c3;
     bottom: 0;
     left: 0;
     right: 0;
@@ -29294,7 +29294,7 @@ input[type=number] {
 }
 
 .hire-salesforce-header .header-cta>a:hover>span {
-    color: #ffda30;
+    color: #26b3c3;
     max-width: 107px;
     width: 107px
 }
@@ -29369,7 +29369,7 @@ input[type=number] {
 }
 
 .hire-remote-salseforce-developer h1>span {
-    color: #ffda30
+    color: #26b3c3
 }
 
 .hire-remote-salseforce-developer p {
@@ -29425,7 +29425,7 @@ input[type=number] {
 }
 
 .hire-remote-salseforce-developer .get-in-touch-form.page_bottom_form .defaultForm .submit-btn input[type=submit] {
-    background-color: #ffda30 !important;
+    background-color: #26b3c3 !important;
     text-transform: inherit;
     font-size: 18px;
     color: #000;
@@ -29549,11 +29549,11 @@ input[type=number] {
 
 .find-perfect-salesforce-developer .row .col .developer-block>.cta>a {
     background: #fff;
-    border: 3px solid #ffda30
+    border: 3px solid #26b3c3
 }
 
 .find-perfect-salesforce-developer .row .col .developer-block>.cta>a:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -29565,7 +29565,7 @@ input[type=number] {
 .find-perfect-salesforce-developer .find-salesforce-developer .slick-arrow {
     width: 40px;
     height: 40px;
-    background-color: #ffda30;
+    background-color: #26b3c3;
     border-radius: 100%
 }
 
@@ -29754,7 +29754,7 @@ input[type=number] {
 .client-review .review-count {
     width: 140px;
     height: 140px;
-    background-color: #ffda30;
+    background-color: #26b3c3;
     border-radius: 100%;
     display: -ms-flexbox;
     display: flex;
@@ -29881,11 +29881,11 @@ input[type=number] {
 
 .build-robust-salesforce-expert .help-block>.cta>a {
     background: 0 0;
-    border: 3px solid #ffda30
+    border: 3px solid #26b3c3
 }
 
 .build-robust-salesforce-expert .help-block>.cta>a:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -30213,7 +30213,7 @@ input[type=number] {
 }
 
 .checkout-2 .woocommerce-info {
-    border-top-color: #ffda30
+    border-top-color: #26b3c3
 }
 
 .checkout-2 .woocommerce-info:before {
@@ -30250,7 +30250,7 @@ input[type=number] {
 }
 
 .checkout-2 .form-row .woocommerce-button.button.woocommerce-form-login__submit:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -30378,7 +30378,7 @@ input[type=number] {
 }
 
 .checkout .woocommerce-info {
-    border-top-color: #ffda30
+    border-top-color: #26b3c3
 }
 
 .checkout .woocommerce-info:before {
@@ -30415,7 +30415,7 @@ input[type=number] {
 }
 
 .checkout .form-row .woocommerce-button.button.woocommerce-form-login__submit:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -30524,7 +30524,7 @@ input[type=number] {
 }
 
 .my-account .form-row .woocommerce-button.button.woocommerce-form-login__submit:hover {
-    background: #ffda30;
+    background: #26b3c3;
     color: #000
 }
 
@@ -30559,7 +30559,7 @@ input[type=number] {
 }
 
 .my-account .entry-content ul li.is-active {
-    background: #ffda30
+    background: #26b3c3
 }
 
 .my-account .woocommerce table.my_account_orders {
@@ -30573,7 +30573,7 @@ input[type=number] {
 }
 
 .my-account .edit-account .woocommerce-Button.button:hover {
-    background: #ffda30
+    background: #26b3c3
 }
 
 .my-account .woocommerce-MyAccount-content table.single_order_view td {
@@ -30610,7 +30610,7 @@ input[type=number] {
     font-size: 16px;
     text-transform: uppercase;
     padding: 15px 35px;
-    background: #ffda30;
+    background: #26b3c3;
     color: #000;
     font-weight: 700;
     bottom: 0;

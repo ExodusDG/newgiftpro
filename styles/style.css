@@ -37393,3 +37393,10 @@ font-weight: 400 !important;
 .call {
   font-size: 15px !important;
 }
+
+.menuBox span:hover {
+  color: #007eb6;
+}
+.menuBox span {
+  cursor: pointer;
+}
