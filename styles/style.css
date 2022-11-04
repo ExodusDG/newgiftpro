@@ -37380,3 +37380,16 @@ footer .ftr-locations .loc-box .area {
   font-weight: 700 !important;
   width: 300px;
 }
+
+.landing_hero_cta .title--sm {
+font-weight: 400 !important;
+}
+
+.admin_interface_dashboard_header-title::before {
+  content: "Revenue and Performance";
+}
+
+
+.call {
+  font-size: 15px !important;
+}
