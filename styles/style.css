@@ -37359,3 +37359,13 @@ footer .ftr-locations .loc-box .area {
   position: relative;
   bottom: 100px;
 }
+
+.section-title {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.contact-title.contact-title {
+  font-size: 35px;
+  font-weight: 700;
+}
