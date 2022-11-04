@@ -37344,3 +37344,15 @@ footer .ftr-locations .loc-box .area {
 .testimonial_single-quote {
   font-weight: 400 !important;
 }
+
+@media (max-width: 1450px) {
+  .vert_pad {
+    padding-top: 175px;
+    padding-bottom: 150px;
+}
+}
+
+.sectionUp {
+  position: relative;
+  bottom: 100px;
+}
