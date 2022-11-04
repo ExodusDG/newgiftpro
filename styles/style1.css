@@ -71,7 +71,7 @@
 }
 
 .banner-section {
-    background: #ffda30;
+    background: #26b3c3;
     position: relative;
     height: 68vh
 }
@@ -1027,7 +1027,7 @@
     padding: 7px;
     font-size: 12px;
     font-weight: 600;
-    background: #ffda30;
+    background: #26b3c3;
     border-radius: 7px;
     cursor: pointer
 }
@@ -1438,7 +1438,7 @@
     line-height: 1.8;
     text-align: center;
     font-size: 14px;
-    background: #ffda30;
+    background: #26b3c3;
     font-weight: 800
 }
 
@@ -1716,7 +1716,7 @@
 }
 
 .page_bottom_form .toggle-box .cta-button.choosen {
-    background: #ffda30
+    background: #26b3c3
 }
 
 .page_bottom_form.tg-frm h2 {
