@@ -37181,8 +37181,8 @@ footer .ftr-locations .loc-box .area {
 }
 
 .admin_overview .section_title {
-  font-size: 45px !important;
-  font-weight: 600 !important;
+  font-size: 46px !important;
+  font-weight: 500 !important;
 }
 
 .admin_overview .section_description {
@@ -37195,7 +37195,7 @@ footer .ftr-locations .loc-box .area {
 }
 
 .admin_overview .col_grid-title {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .admin_overview .col_grid-desc p {
@@ -37324,4 +37324,23 @@ footer .ftr-locations .loc-box .area {
 .landing_hero_cta .title--sm {
   color: white;
   margin-bottom: 10px;
+}
+
+.admin_overview .col_grid-desc p {
+  font-weight: 400;
+}
+
+.admin_overview .section_description {
+  width: 330px;
+  font-weight: 400 !important;
+}
+
+.section-2_col_cell--text .section_title:first-child {
+  font-size: 46px;
+  width: 300px;
+  font-weight: 500;
+}
+
+.testimonial_single-quote {
+  font-weight: 400 !important;
 }
